@@ -13,7 +13,7 @@ As such, the plan  is to construct deep learning model (convolutional neural net
 
 As a teaser, final output looks something like this:
 
-![Video](images/final_output_video.mp4)
+![Video](https://docs.google.com/file/d/1yyX8P3ubFPuz2l0B46MqQcHLj_HWTiDu/preview)
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
