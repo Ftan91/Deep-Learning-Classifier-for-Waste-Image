@@ -23,9 +23,10 @@ As such, the plan  is to construct deep learning model (convolutional neural net
 - 410 metal
 - 137 trash [will be removed for now as this is not much of a value add to my final model]
 
-### **Cloud Infrastructure**
-Google Cloud Platform. Request GPU. Depending on the task, tinker around with the different GPU availables
-Free credit worth £232 equivalent
+### **Setting up Cloud Infrastructure**
+In light of my limited computational resources, it is best to set up an account with Google Cloud Platform, for which you will be granted c. £231 in free credit (thanks Google!). For low level task, I've ran my notebook purely on 4vCPU with 15GB memory and for training my CNN, I've also added on a NVIDIA Tesla P100 GPU for rapid processing. FYI - to be granted access to a GPU, you will need to request access (approvals takes less than an hour). Only advise is to make sure you shutdown the virtual instance for which you are running the notebook in, unless you are keen to be charged for idle time!
+
+There are many useful instructions to get GCP up and running. One I found useful is this video tutorial [here](https://www.youtube.com/watch?v=Db4FfhXDYS8)
 
 ### **Folder Organization [Important]**
 
