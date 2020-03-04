@@ -13,14 +13,7 @@ As such, the plan  is to construct deep learning model (convolutional neural net
 
 As a teaser, final output looks something like this:
 
-![Video](https://docs.google.com/file/d/1yyX8P3ubFPuz2l0B46MqQcHLj_HWTiDu/preview)
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="images/final_output_video.mp4" type="video/mp4">
-  </video>
-</figure>
-
+![Video](https://www.youtube.com/watch?v=PdsfRcfIfBQ)
 
 ### **Dataset**
 **Model 1.** For the first model, dataset can be obtained from Kaggle [here](https://www.kaggle.com/techsash/waste-classification-data). The dataset contains of 22,564 images pre-labeled as 'Organic' and 'Recyclable' items and has been split into 85% train and 15% test. 
