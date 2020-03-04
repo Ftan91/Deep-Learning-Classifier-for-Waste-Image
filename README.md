@@ -12,6 +12,9 @@ Source: Verisk Maplecroft, 2019
 As such, the plan  is to construct deep learning model (convolutional neural network) to classify waste images firstly by distinguishing if they are a recyclable or organic item and subsequently classifying them into its individual counterparts such as paper, glass, plastic, cardboard and metal.
 
 As a teaser, final output looks something like this:
+
+![Video](images/final_output_video.mp4)
+
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
     <source src="images/final_output_video.mp4" type="video/mp4">
