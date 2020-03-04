@@ -13,7 +13,7 @@ As such, the plan  is to construct deep learning model (convolutional neural net
 
 As a teaser, final output looks something like this:
 
-[![Video](http://img.youtube.com/watch?v=PdsfRcfIfBQ.jpg)](https://www.youtube.com/watch?v=PdsfRcfIfBQ)
+[![](http://img.youtube.com/vi/PdsfRcfIfBQ/0.jpg)](http://www.youtube.com/watch?v=PdsfRcfIfBQ "Image Classifier using Convolutional Neural Network")
 
 
 ### **Dataset**
