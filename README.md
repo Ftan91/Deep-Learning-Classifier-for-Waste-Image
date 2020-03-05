@@ -54,6 +54,7 @@ With the first dataset, some issues that may be pose issues down the road:
 - pictures may include elements of both organic and recyclable
 - clean pictures (not a reflection of reality) vs noisy background
 - some images are incorrectly labelled across both labels
+- some images represent posters / flyers of labelled class and as such is not very clear cut
 
 ![Recyclable](images/recyclable.png)
 ![Organic](images/organic.png)
