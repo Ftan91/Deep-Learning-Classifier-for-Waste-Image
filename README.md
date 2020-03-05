@@ -75,7 +75,7 @@ Off the block, model performs farily well with an accuracy metric north of 80%.
 #### Model 2 [Multiple Classifier] - Glass / Paper / Cardboard / Plastic / Metal
 Moving on to the next model, I've instead experimented with FastAi's library through the use of transfer learning of pretrained model of ResNet50, also resulting in a model performance north of 80%. Would however caveat that, model tends to misclassify glass vs metal vs plastic and paper vs cardboard
 
-![Model_1](images/model_2.png)
+![Model_1](images/confusion_2.png)
 
 
 ### **Model Deployment & Demo**
