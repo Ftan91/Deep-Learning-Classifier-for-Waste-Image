@@ -64,15 +64,18 @@ The second dataset is fairly straightforward which have been resizede to a homog
 ### **Model Construction, Performance & Tuning**
 
 #### Model 1 [Binary Classifier] - Recyclable / Organic
-To start off, I created a baseline convolutional neural network with the following metrics:
+To start off, I created a baseline Keras' convolutional neural network with the following metrics:
 ![Model_1](images/model_1.png)
+![Model_1](images/confusion_1.png)
+![Model_1](images/roc_1.png)
+![Model_1](images/threshold.png)
 
-
+Off the block, model performs farily well with an accuracy metric north of 80%. 
 
 #### Model 2 [Multiple Classifier] - Glass / Paper / Cardboard / Plastic / Metal
+Moving on to the next model, I've instead experimented with FastAi's library through the use of transfer learning of pretrained model of ResNet50, also resulting in a model performance north of 80%. Would however caveat that, model tends to misclassify glass vs metal vs plastic and paper vs cardboard
 
-
-
+![Model_1](images/model_2.png)
 
 
 ### **Model Deployment & Demo**
@@ -80,5 +83,7 @@ To start off, I created a baseline convolutional neural network with the followi
 ### **Limitations, Lessons and Future Work**
 Data Image Augmentation
 Pre-processing image, applying gaussian blur to reduce noise particularly for noisy background images
+Tedious parameter tuning 
+![tuning](images/tuning.png)
 
 ### **References and Acknowledgement**
