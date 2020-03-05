@@ -49,11 +49,22 @@ To avoid overloading images into self-created X & Y variables which eventually c
 It is up to you if you would like a validation set or not but more importantly each subfolder within the parent folder needs to be correctly labeled under the appropriate class, in this case being 'R' for Recyclable and 'O' for Organic. Also be aware of any hidden files such as .ipynbcheckpoints whenever moving files around. To speed up the process of moving files around, you can utilize the Python's shutil modules which offers a number of high-level operations on files and collection of files. 
 
 ### **Image Exploration [EDA]**
+With the first dataset, some issues that may be pose issues down the road:
+
+- pictures may include elements of both organic and recyclable
+- clean pictures (not a reflection of reality) vs noisy background
+- some images are incorrectly labelled across both labels
+
+![Recyclable](images/recyclable.png)
+![Organic](images/organic.png)
+
 
 ### **Model Performance**
 
 ### **Model Deployment & Demo**
 
 ### **Limitations, Lessons and Future Work**
+Data Image Augmentation
+Pre-processing image, applying gaussian blur to reduce noise particularly for noisy background images
 
 ### **References and Acknowledgement**
