@@ -59,8 +59,21 @@ With the first dataset, some issues that may be pose issues down the road:
 ![Recyclable](images/recyclable.png)
 ![Organic](images/organic.png)
 
+The second dataset is fairly straightforward which have been resizede to a homogenous dimensions of 50 x 50. 
 
-### **Model Performance**
+### **Model Construction, Performance & Tuning**
+
+#### Model 1 [Binary Classifier] - Recyclable / Organic
+To start off, I created a baseline convolutional neural network with the following metrics:
+![Model_1](images/model_1.png)
+
+
+
+#### Model 2 [Multiple Classifier] - Glass / Paper / Cardboard / Plastic / Metal
+
+
+
+
 
 ### **Model Deployment & Demo**
 
