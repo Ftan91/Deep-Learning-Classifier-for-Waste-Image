@@ -75,15 +75,22 @@ Off the block, model performs farily well with an accuracy metric north of 80%.
 #### Model 2 [Multiple Classifier] - Glass / Paper / Cardboard / Plastic / Metal
 Moving on to the next model, I've instead experimented with FastAi's library through the use of transfer learning of pretrained model of ResNet50, also resulting in a model performance north of 80%. Would however caveat that, model tends to misclassify glass vs metal vs plastic and paper vs cardboard
 
-![Model_1](images/confusion_2.png)
+![Model_2](images/confusion_2.png)
 
 
 ### **Model Deployment & Demo**
+Using the open soure computer vision library, I then deploy the model on both still images and recorded videos (through the use of webcam). It is important to be aware of the intricacies of the cv2 library especially with the color coding and the way webcam and image coordinates are set up (they are reversed). In order to select images and track their movement, I've utilized the selectROI and KCF tracker which you can learn more about in their official documentation.
+
+![image_1](images/multi_image.png)
+![video_1](images/video_2.png)
 
 ### **Limitations, Lessons and Future Work**
 Data Image Augmentation
 Pre-processing image, applying gaussian blur to reduce noise particularly for noisy background images
 Tedious parameter tuning 
+
+Building your own model from scratch can be a tedious and cumbersome process especially with large datasets, higher number of hidden layers and if there are multiple hyperparameters to tune. Progress can also be sluggish without external computing resources. Below is an example of the time taken to tune several hyperparameters using rented computing power on Google Cloud Platform.
+
 ![tuning](images/tuning.png)
 
 ### **References and Acknowledgement**
