@@ -34,7 +34,7 @@ In light of my limited computational resources, it is best to set up an account 
 There are many useful instructions to get GCP up and running. One I found useful is this video tutorial [here](https://www.youtube.com/watch?v=Db4FfhXDYS8).
 
 ### **Folder Organization [Important]**
-To avoid overloading images into self-created X & Y variables which eventually causes you to run out of memory, I instead used Keras's ImageDataGenerator function which pretty much reads images directly from the images directory. In order to do this however, we will need the folders to be correctly organized under the format of:
+To avoid overloading images into self-created X & Y variables which eventually causes you to run out of memory, I instead used Keras's ImageDataGenerator (can add augmentation to images as well) function which pretty much reads images directly from the images directory. In order to do this however, we will need the folders to be correctly organized under the format of:
 
     TRAIN
         - R 
@@ -50,18 +50,10 @@ It is up to you if you would like a validation set or not but more importantly e
 
 ### **Image Exploration [EDA]**
 
-Model 1
+### **Model Performance**
 
-Model 2
+### **Model Deployment & Demo**
 
-Results
+### **Limitations, Lessons and Future Work**
 
-Model Deployment through Open CV Computer Vision
-
-Limitations
-
-Lessons
-
-Future Work
-
-References and Acknowledgement
+### **References and Acknowledgement**
