@@ -85,12 +85,25 @@ Using the open soure computer vision library, I then deploy the model on both st
 ![video_1](images/video_2.png)
 
 ### **Limitations, Lessons and Future Work**
-Data Image Augmentation
-Pre-processing image, applying gaussian blur to reduce noise particularly for noisy background images
-Tedious parameter tuning 
 
+#### **Limitations**
+- Limitation training in second model (only 2.5k images vs 25k for the first model)
+- Deployed model is only baseline model with limited additional tuning
+- Real life deployment will not be as straightforward given noise in webcam frames
+- Model Performance drops in low light conditions
+- Some training images not correctly labelled and not good representative of class
+- Training and Validation error do not converge, a potential sign of overfitting
+
+![image_1](images/errors.png)
+
+#### **Lessons**
 Building your own model from scratch can be a tedious and cumbersome process especially with large datasets, higher number of hidden layers and if there are multiple hyperparameters to tune. Progress can also be sluggish without external computing resources. Below is an example of the time taken to tune several hyperparameters using rented computing power on Google Cloud Platform.
 
 ![tuning](images/tuning.png)
+
+#### **Future Work**
+- Image Pre-Processing & Data Augmentation. Using Keras built in function, ImageDatagenerator to create image augmentations including mirroring, rotating, shearing and color shifting
+- Transfer Learning on First Model. Transfer Learning by using weights obtained from pretained network. Benefit of ResNet50 is that even if we train deeper networks, the training error does not increase
+- Sovling for Global Interpreter Lock. Using multithreading to speed up Frame Processing Rate in light of the bottleneck caused by Python's GIL
 
 ### **References and Acknowledgement**
