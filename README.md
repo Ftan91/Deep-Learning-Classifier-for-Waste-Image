@@ -107,3 +107,9 @@ Building your own model from scratch can be a tedious and cumbersome process esp
 - Sovling for Global Interpreter Lock. Using multithreading to speed up Frame Processing Rate in light of the bottleneck caused by Python's GIL
 
 ### **References and Acknowledgement**
+
+- Kaggle Dataset: [here](https://www.kaggle.com/techsash/waste-classification-data)
+- Gary Thung and Mindy Yang Recyclable Image Dataset: [here](https://github.com/garythung/trashnet)
+- Guide to building a CNN using a fastai model by Collin Ching: [here](https://towardsdatascience.com/how-to-build-an-image-classifier-for-waste-sorting-6d11d3c9c478)
+- Setting up GCP: [here](https://www.youtube.com/watch?v=Db4FfhXDYS8)
+- Comprehensive tutorial to learn CNN: [here](https://www.analyticsvidhya.com/blog/2018/12/guide-convolutional-neural-network-cnn/)
